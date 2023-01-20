@@ -68,6 +68,9 @@ class K_means():
             self.states.append(self.cluster_data_indexes)
 
 
+        return self.cluster_data_indexes
+
+
 if __name__ == "__main__":
 
     cov = np.array([[1,0],[0,1]])
