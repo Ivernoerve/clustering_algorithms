@@ -37,9 +37,7 @@ class Spectral_clustering():
 
     def assign_classes(self) -> np.ndarray:
         '''
-        Method to assign labels to the data given
-
-
+        Method to assign labels to the data givens
         '''
 
         plt.scatter(self.transformation_matrix[:,0], self.transformation_matrix[:,1])
